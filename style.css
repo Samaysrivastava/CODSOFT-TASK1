@@ -1,0 +1,132 @@
+body,h1,h2,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial,sans-serif;
+}
+header{
+   
+    
+    padding: 20px;
+    justify-content: center;
+    font-size: larger;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-pizza-pac-man-background-picture-image_158189.jpg);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    
+   
+}
+.logo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: larger
+    
+
+    
+    
+}
+#logo{
+    border-image: round;
+    border-radius: 50%;
+    width: 45%;
+    margin-left: 80%;
+    margin-bottom: 40%
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+}
+.navlinks li{
+    margin-right: 20px;
+}
+.navlinks a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px;
+    border-image: round;
+    border-radius: 20px;
+    background-color: black ;
+    color: brown;
+    font-weight: bolder;
+    
+   
+}
+.navlinks a:hover{
+    background-color: white;
+}
+
+.nav-cont{
+    background-color: grey;
+    border-image: round;
+    border-radius: 20px;
+}
+.nav-cont:hover {
+    background-color:  black;
+}
+
+
+
+#about{
+    max-width: 650px;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    right: 10%;
+}
+#about h1{
+    color: brown;
+    margin-bottom: 10px;
+}
+#p1{
+    color: brown;
+    margin-bottom: 10px;
+
+
+}
+#p2{
+    color: brown;
+    margin-bottom: 50px;
+}
+.explore-button{
+    text-decoration: none;
+    margin-left: 50%;
+    color: whitesmoke;
+    background-color: red;
+    padding: 10px;
+    border-image: round;
+    border-radius: 20px;
+}
+.explore-button:hover{
+    background-color: brown;
+}
+
+footer{
+
+    
+    background-size: cover;
+    width: auto;
+    
+    background-color: black;
+    color: wheat;
+    
+    
+}
+.contact{
+    
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+}
+#end{
+    text-align: center;
+}
+
